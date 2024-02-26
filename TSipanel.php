@@ -39,7 +39,7 @@ function isfile( $path ) {
     return (is_file($path) === TRUE);
 	
  }
-$dirserv='https://raw.githubusercontent.com/fairbird/TSipanel-pyhon3';
+$dirserv='https://github.com/fairbird/TSipanel-pyhon3/raw/main';
 
 header("Content-type: text/xml");
 $value='../TSipanel-pyhon3/new_addons';
