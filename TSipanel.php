@@ -61,7 +61,7 @@ if (fileexists($value4)) {
 		}			
 if(@$_GET['xml'] == 'UPDATE'){
 	$nombre_archivo = '../TSipanel-pyhon3/TSipanel.xml'; $fp = fopen($nombre_archivo,"w"); fclose($fp);
-	$arr = Array('bootlogo', 'Cams-arm', 'Cams-mips', 'Icons-Panel', 'Icons-Panel-FHD', 'Picons', 'Plugins','Plugins-Backup','Plugins-Epg','Plugins-IPTV','Plugins-Multiboot','Plugins-Vpn','Skins-FHD', 'Skins-HD', 'TS-Skins');
+	$arr = Array('bootlogo', 'Cams-arm', 'Cams-mips', 'Icons-Panel', 'Icons-Panel-FHD', 'Picons', 'Plugins','Plugins-Backup','Plugins-Epg','Plugins-IPTV','Plugins-Multiboot','Plugins-Vpn','Plugins-Weather','Skins-FHD', 'Skins-HD', 'TS-Skins');
 	XML($nombre_archivo, $dirserv, $arr);
 }
 
