@@ -58,7 +58,7 @@ if (fileexists($value4)) {
 		}			
 {
 	$nombre_archivo = '../TSipanel-pyhon3/TSipanel.xml'; $fp = fopen($nombre_archivo,"w"); fclose($fp);
-	$arr = Array('bootlogo', 'Cams-arm', 'Cams-mips', 'Icons-Panel', 'Icons-Panel-FHD', 'Picons', 'Plugins', 'Plugins-Audio', 'Plugins-Backup', 'Plugins-Epg', 'Plugins-IPTV', 'Plugins-Multiboot', 'Plugins-Panel', 'Plugins-Vpn', 'Plugins-Weather', 'Plugins-Quran_karim', 'Skins-FHD', 'Skins-HD', 'TS-Skins');
+	$arr = Array('bootlogo', 'Cams-arm', 'Cams-mips', 'Icons-Panel', 'Icons-Panel-FHD', 'Picons', 'Plugins', 'Plugins-Backup', 'Plugins-Epg', 'Plugins-IPTV', 'Plugins-Multiboot', 'Plugins-Panel', 'Plugins-Vpn', 'Plugins-Weather', 'Plugins-Quran_karim', 'Skins-FHD', 'Skins-HD', 'TS-Skins');
 	XML($nombre_archivo, $dirserv, $arr);
 }
 
